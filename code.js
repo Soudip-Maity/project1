@@ -56,22 +56,27 @@
 //    console.log(e.type);
 // };
 
-///////////////////////////////////////////////////////theme changing light to dark
-let modebtn = document.querySelector("#mode")
-let body = document.querySelector("body");
-let current_mode="light";
+///////////////////////////////////////////////////////theme changing light to dark  
+// let modebtn = document.querySelector("#mode")
+// let body = document.querySelector("body");
+// let div = document.querySelector("div");
+// let current_mode="light";
 
 
-modebtn.addEventListener("click", () => {
-if (current_mode==="light"){
-    current_mode="dark"
-    body.classList.add("dark")
-    body.classList.remove("light")
-}else{
-    current_mode="light"
-    body.classList.add("light")
-    body.classList.remove("dark")
-}
-console.log(current_mode);
+// modebtn.addEventListener("click", () => {
+// if (current_mode==="light"){
+//     current_mode="dark"
+//     body.classList.add("dark")
+//     body.classList.remove("light")
+//     div.
+// }else{
+//     current_mode="light"
+//     body.classList.add("light")
+//     body.classList.remove("dark")
+// }
+// console.log(current_mode);
 
-})
+// })
+
+/////////////////////////////////////////////
+
