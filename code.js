@@ -80,3 +80,14 @@
 
 /////////////////////////////////////////////
 
+function addStudent(name, phno, email, address) {
+    const student = {
+      name: name,
+      phno: phno,
+      email: email,
+      address: address
+    };
+    
+    students.push(student);
+  }
+  
