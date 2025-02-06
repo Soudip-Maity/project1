@@ -29,14 +29,14 @@
 // reverse a String
 // let string = "soudip";
 // let arr =(''+string).split('')
-// // console.log(arr);
-// // for (let i=1;i<= arr.length;i++){
-// //    if(arr[i]===arr[i].at(arr.length)){
-// //     console.log(arr[i]);
-// //     arr.pop()
+// console.log(arr);
+// for (let i=1;i<= arr.length;i++){
+//    if(arr[i]===arr[i].at(arr.length)){
+//     console.log(arr[i]);
+//     arr.pop()
     
-// //    }
-// // }
+//    }
+// }
 // arr.reverse()
 // console.log(arr);
 
@@ -80,14 +80,14 @@
 
 /////////////////////////////////////////////
 
-function addStudent(name, phno, email, address) {
-    const student = {
-      name: name,
-      phno: phno,
-      email: email,
-      address: address
-    };
+// function addStudent(name, phno, email, address) {
+//     const student = {
+//       name: name,
+//       phno: phno,
+//       email: email,
+//       address: address
+//     };
     
-    students.push(student);
-  }
+//     students.push(student);
+//   }
   

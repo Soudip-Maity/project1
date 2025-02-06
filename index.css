@@ -1,15 +1,28 @@
+body{
+    text-align: center;
 
-div{
-    height: 200px;
-    width: 200px;
-    background-color: green;
-    cursor: pointer;
+   
 }
-.dark{
-    background-color: black;
-    color: white;
+
+
+
+#main{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    border:  solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
-.light{
-    background-color:white;
-    color: black;
-}
+#main2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: solid;
+    margin: auto;
+    border-radius: 50%;
+  
+}   
+

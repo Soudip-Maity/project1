@@ -20,7 +20,7 @@ function addStudent(name, phno, email, std_id) {
 // addStudent("rintu maity", 9876123412, "rintu@gmail.com",3);
 
 // console.log(students[0].name);
-// console.log(students[1].email);
+// console.log(students[1].email);  
 // console.table(students)
 
 ////option

@@ -1,0 +1,50 @@
+body{
+    margin-left: 38%;
+    margin-top: 5%;
+}
+
+
+
+#container{
+    border: solid ;
+    width: 300px;
+    background:linear-gradient(110deg,rgb(15, 220, 239),rgb(239, 79, 79),rgb(221, 116, 60)
+    ) ;
+    justify-content: center;
+    padding: 5px;
+}
+.search{
+    padding: 15px;
+    
+    display: flex;
+  
+}
+.search input{
+    border-radius: 30px;
+    height: 25px;
+    text-align:center;
+}
+.search button{
+    height: 30px;
+    border-radius: 30px;
+}
+#weather{
+ text-align: center;
+ font-size: x-large;
+    
+}
+
+.temp{
+    font-size: 30px;
+}
+.city{
+    font-size: 25px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+#mode{
+    cursor: pointer;
+}
